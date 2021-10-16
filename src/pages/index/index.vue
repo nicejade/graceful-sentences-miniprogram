@@ -1,19 +1,11 @@
 <template>
   <div class="wrapper">
-    <!-- <search class="mobile-search" v-if="$isMobileScreen()" /> -->
-    <HomeLotus></HomeLotus>
-    <NiceFantasy></NiceFantasy>
-    <Introduction></Introduction>
-    <LinkCountup></LinkCountup>
-    <ad unit-id="adunit-b6ffe4fde404d329" ad-type="video" ad-theme="white"></ad>
+    <Calendar />
   </div>
 </template>
 
 <script>
-import HomeLotus from 'components/homepage/HomeLotus'
-import NiceFantasy from 'components/homepage/NiceFantasy'
-import Introduction from 'components/homepage/Introduction'
-import LinkCountup from 'components/homepage/LinkCountup'
+import Calendar from './../../components/Calendar'
 
 export default {
   name: 'Index',
@@ -25,10 +17,7 @@ export default {
   },
 
   components: {
-    HomeLotus,
-    NiceFantasy,
-    Introduction,
-    LinkCountup
+    Calendar,
   },
 
   beforeCreate() {},
@@ -45,3 +34,11 @@ export default {
   methods: {}
 }
 </script>
+
+<style lang="less">
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+</style>

@@ -1,8 +1,8 @@
 {
-  "name": "nicelinks-miniprogram",
-  "version": "3.0.0",
+  "name": "graceful-sentences-miniprogram",
+  "version": "1.0.0",
   "mpvueTemplateProjectVersion": "0.1.0",
-  "description": "基于 mpvue 所构建的「倾城之链」小程序版本",
+  "description": "基于 mpvue 所构建的「曼妙句子」小程序版本",
   "author": "JadeYang(杨琼璞) <jeffygisgreat@gmail.com>",
   "private": true,
   "scripts": {
